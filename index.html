@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <link rel="stylesheet" href="/styles/styles.css">
+    <title>Rick and Morty</title>
+</head>
+<body>
+    <h1>API the Rick and Morty</h1>
+    <header>
+        <p id="qtd-personagens">Personagens: 0</p>
+        <p id="qtd-localizacoes">Localizações: 0</p>
+        <p id="qtd-episodios">Episódios: 0</p>
+    </header>
+    <div id="resultado">
+
+    </div>
+    <div class="container-botoes">
+        <button id="btn-prev">Prev</button>
+        <button id="btn-actual" disabled>Actual</button>
+        <button id="btn-next">Next</button>
+    </div>
+
+    <img src="/images/embaixo.png" width="400px">
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script src="/script/index.js"></script>
+</body>
+</html>
